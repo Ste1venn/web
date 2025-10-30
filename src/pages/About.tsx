@@ -20,12 +20,12 @@ const About = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose mb-12">
               {[
-                { icon: '🤖', title: 'AI 人工智能', desc: '机器学习、深度学习、大语言模型' },
-                { icon: '📊', title: '产品管理', desc: '产品思维、用户体验、数据驱动' },
-                { icon: '💻', title: '编程开发', desc: 'Web开发、系统设计、最佳实践' },
-                { icon: '🚀', title: '创业创新', desc: '商业模式、创新思维、市场洞察' },
-                { icon: '⛓️', title: 'Web3', desc: '区块链、智能合约、去中心化' },
-                { icon: '⚛️', title: '量子科技', desc: '量子计算、量子物理、前沿研究' },
+                { icon: '/public/ai.svg', title: 'AI', desc: '机器学习、深度学习、大语言模型' },
+                { icon: '/public/ai.svg', title: '产品管理', desc: '产品思维、用户体验、数据驱动' },
+                { icon: '/public/ai.svg', title: '编程开发', desc: 'Web开发、系统设计、最佳实践' },
+                { icon: '/public/ai.svg', title: '创业创新', desc: '商业模式、创新思维、市场洞察' },
+                { icon: '/public/ai.svg', title: 'Web3', desc: '区块链、智能合约、去中心化' },
+                { icon: '/public/ai.svg', title: '量子科技', desc: '量子计算、量子物理、前沿研究' },
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -34,7 +34,9 @@ const About = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="p-6 bg-white rounded-2xl border border-apple-gray-200 hover:border-apple-blue hover:shadow-lg transition-all"
                 >
-                  <div className="text-4xl mb-3">{item.icon}</div>
+                  <div className="text-4xl mb-3">
+                    <img src={item.icon} alt={item.title} />
+                  </div>
                   <h3 className="text-xl font-semibold text-apple-gray-800 mb-2">{item.title}</h3>
                   <p className="text-apple-gray-600">{item.desc}</p>
                 </motion.div>

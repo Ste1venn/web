@@ -34,7 +34,7 @@ https://web-two-fawn-52.vercel.app/
 
 根据你的网站主题，推荐以下域名：
 
-- `growth-path.vercel.app` - 成长之路
+- `growth-path.vercel.app` - Ste1ven
 - `steven-growth.vercel.app` - 个人成长
 - `tech-journey.vercel.app` - 技术之旅
 - `learning-notes.vercel.app` - 学习笔记

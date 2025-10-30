@@ -36,7 +36,7 @@ const Header = () => {
               whileTap={{ scale: 0.95 }}
               className="text-2xl font-semibold bg-gradient-to-r from-apple-blue to-purple-600 bg-clip-text text-transparent"
             >
-              成长之路
+              Ste1ven
             </motion.div>
           </Link>
 

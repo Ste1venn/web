@@ -76,7 +76,7 @@ Website/
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>成长之路 | Growth Journey</title>
+    <title>Ste1ven | Growth Journey</title>
   </head>
   <body>
     <div id="root"></div>                    <!-- React挂载点 -->
@@ -240,7 +240,7 @@ useEffect(() => {
 <main>
   {/* Hero区域 - 大标题和介绍 */}
   <section className="hero">
-    <h1>成长之路</h1>
+    <h1>Ste1ven</h1>
     <p>记录在AI、产品管理...</p>
     <Link to="/articles">探索文章</Link>
   </section>

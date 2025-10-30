@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   const categories = [
-    { name: 'AI 人工智能', icon: '🤖', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
-    { name: '产品管理', icon: '📊', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
-    { name: '编程开发', icon: '💻', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
-    { name: '创业创新', icon: '🚀', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
-    { name: 'Web3', icon: '⛓️', color: 'from-indigo-500 to-purple-500', description: '区块链与去中心化' },
-    { name: '量子科技', icon: '⚛️', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
+    { name: 'AI 人工智能', icon: '🫵', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
+    { name: '产品管理', icon: '🫵', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
+    { name: '编程开发', icon: '🫵', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
+    { name: '创业创新', icon: '🫵', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
+    { name: 'Web3', icon: '🫵', color: 'from-indigo-500 to-purple-500', description: '区块链与去中心化' },
+    { name: '量子科技', icon: '🫵', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
   ]
 
   const containerVariants = {
@@ -45,7 +45,7 @@ const Home = () => {
             className="text-center"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-apple-blue via-purple-600 to-pink-600 bg-clip-text text-transparent">
-              成长之路
+              Ste1ven
             </h1>
             <p className="text-xl md:text-2xl text-apple-gray-600 mb-8 max-w-3xl mx-auto">
               记录在 AI、产品管理、编程、创业、Web3、量子领域的学习成果
@@ -103,11 +103,13 @@ const Home = () => {
                 <div className={`absolute inset-0 bg-gradient-to-br ${category.color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}></div>
                 
                 <div className="relative z-10">
+                  <Link to="/articles">
                   <div className="text-5xl mb-4">{category.icon}</div>
                   <h3 className="text-2xl font-semibold text-apple-gray-800 mb-2">
                     {category.name}
                   </h3>
                   <p className="text-apple-gray-600">{category.description}</p>
+                  </Link>
                 </div>
 
                 <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${category.color} transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300`}></div>

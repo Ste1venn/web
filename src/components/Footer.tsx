@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-apple-gray-800">成长之路</h3>
+            <h3 className="text-lg font-semibold mb-4 text-apple-gray-800">Ste1ven</h3>
             <p className="text-sm text-apple-gray-500">
               记录在AI、产品管理、编程、创业、Web3、量子领域的学习成果
             </p>
@@ -27,13 +27,17 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4 text-apple-gray-800">联系方式</h3>
             <p className="text-sm text-apple-gray-500">
-              持续学习，持续成长
+              微信：TargetTracker
+              <br />
+              QQ：1544246349
+              <br />
+              个人公众号：野生AiPM&Entrepreneur
             </p>
           </div>
         </div>
 
         <div className="mt-12 pt-8 border-t border-apple-gray-200 text-center text-sm text-apple-gray-400">
-          <p>© {currentYear} 成长之路. All rights reserved.</p>
+          <p>© {currentYear} Ste1ven. All rights reserved.</p>
         </div>
       </div>
     </footer>
