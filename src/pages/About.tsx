@@ -34,8 +34,8 @@ const About = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="p-6 bg-white rounded-2xl border border-apple-gray-200 hover:border-apple-blue hover:shadow-lg transition-all"
                 >
-                  <div className="text-4xl mb-3">
-                    <img src={item.icon} alt={item.title} />
+                  <div className="mb-3">
+                    <img src={item.icon} alt={item.title} className="w-12 h-12" />
                   </div>
                   <h3 className="text-xl font-semibold text-apple-gray-800 mb-2">{item.title}</h3>
                   <p className="text-apple-gray-600">{item.desc}</p>

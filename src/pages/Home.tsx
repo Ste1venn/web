@@ -104,7 +104,7 @@ const Home = () => {
                 
                 <div className="relative z-10">
                   <Link to="/articles">
-                  <div className="text-5xl mb-4"><img src={category.icon} alt={category.name} /></div>
+                  <div className="mb-4"><img src={category.icon} alt={category.name} className="w-16 h-16" /></div>
                   <h3 className="text-2xl font-semibold text-apple-gray-800 mb-2">
                     {category.name}
                   </h3>
