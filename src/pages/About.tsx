@@ -20,12 +20,12 @@ const About = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose mb-12">
               {[
-                { icon: '/public/ai.svg', title: 'AI', desc: '机器学习、深度学习、大语言模型' },
-                { icon: '/public/product.svg', title: '产品管理', desc: '产品思维、用户体验、数据驱动' },
-                { icon: '/public/coding.svg', title: '编程开发', desc: 'Web开发、系统设计、最佳实践' },
-                { icon: '/public/computer.svg', title: '创业创新', desc: '商业模式、创新思维、市场洞察' },
-                { icon: '/public/web3.svg', title: 'Web3', desc: '区块链、智能合约、去中心化' },
-                { icon: '/public/quantum.svg', title: '量子科技', desc: '量子计算、量子物理、前沿研究' },
+                { icon: '/ai.svg', title: 'AI', desc: '机器学习、深度学习、大语言模型' },
+                { icon: '/product.svg', title: '产品管理', desc: '产品思维、用户体验、数据驱动' },
+                { icon: '/coding.svg', title: '编程开发', desc: 'Web开发、系统设计、最佳实践' },
+                { icon: '/computer.svg', title: '创业创新', desc: '商业模式、创新思维、市场洞察' },
+                { icon: '/web3.svg', title: 'Web3', desc: '区块链、智能合约、去中心化' },
+                { icon: '/quantum.svg', title: '量子科技', desc: '量子计算、量子物理、前沿研究' },
               ].map((item, index) => (
                 <motion.div
                   key={index}

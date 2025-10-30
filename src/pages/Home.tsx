@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   const categories = [
-    { name: 'AI 人工智能', icon: '/public/ai.svg', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
-    { name: '产品管理', icon: '/public/product.svg', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
-    { name: '编程开发', icon: '/public/coding.svg', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
-    { name: '创业创新', icon: '/public/computer.svg', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
-    { name: 'Web3', icon: '/public/web3.svg', color: 'from-indigo-500 to-purple-500', description: '区块链与去中心化' },
-    { name: '量子科技', icon: '/public/quantum.svg', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
+    { name: 'AI 人工智能', icon: '/ai.svg', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
+    { name: '产品管理', icon: '/product.svg', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
+    { name: '编程开发', icon: '/coding.svg', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
+    { name: '创业创新', icon: '/computer.svg', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
+    { name: 'Web3', icon: '/web3.svg', color: 'from-indigo-500 to-purple-500', description: '区块链与去中心化' },
+    { name: '量子科技', icon: '/quantum.svg', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
   ]
 
   const containerVariants = {
@@ -104,7 +104,7 @@ const Home = () => {
                 
                 <div className="relative z-10">
                   <Link to="/articles">
-                  <div className="mb-4"><img src={category.icon} alt={category.name} className="w-16 h-16" /></div>
+                  <div className="mb-4"><img src={category.icon} alt={category.name} className="w-10 h-10 md:w-12 md:h-12 lg:w-16 lg:h-16" /></div>
                   <h3 className="text-2xl font-semibold text-apple-gray-800 mb-2">
                     {category.name}
                   </h3>
