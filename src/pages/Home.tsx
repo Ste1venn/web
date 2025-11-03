@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   const categories = [
-    { name: 'AI 人工智能', icon: '/ai.svg', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
-    { name: '产品管理', icon: '/product.svg', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
-    { name: '编程开发', icon: '/coding.svg', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
-    { name: '创业创新', icon: '/computer.svg', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
+    { name: 'AI', icon: '/ai.svg', color: 'from-blue-500 to-cyan-500', description: '探索机器学习与深度学习' },
+    { name: '产品', icon: '/product.svg', color: 'from-purple-500 to-pink-500', description: '产品思维与用户体验' },
+    { name: '编程', icon: '/coding.svg', color: 'from-green-500 to-emerald-500', description: '代码实践与技术栈' },
+    { name: '创业', icon: '/computer.svg', color: 'from-orange-500 to-red-500', description: '商业模式与创新思维' },
     { name: 'Web3', icon: '/web3.svg', color: 'from-indigo-500 to-purple-500', description: '区块链与去中心化' },
-    { name: '量子科技', icon: '/quantum.svg', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
+    { name: '量子', icon: '/quantum.svg', color: 'from-teal-500 to-blue-500', description: '量子计算与量子物理' },
   ]
 
   const containerVariants = {
@@ -48,7 +48,7 @@ const Home = () => {
               Ste1ven
             </h1>
             <p className="text-xl md:text-2xl text-apple-gray-600 mb-8 max-w-3xl mx-auto">
-              记录在 AI、产品管理、编程、创业、Web3、量子领域的学习成果
+              记录在 AI、产品、编程、创业、Web3、量子领域的学习成果
             </p>
             <motion.div
               whileHover={{ scale: 1.05 }}

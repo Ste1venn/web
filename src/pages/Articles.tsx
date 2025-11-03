@@ -6,7 +6,7 @@ import { articles } from '../data/articles'
 const Articles = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('全部')
 
-  const categories = ['全部', 'AI', '产品管理', '编程', '创业', 'Web3', '量子']
+  const categories = ['全部', 'AI', '产品', '编程', '创业', 'Web3', '量子']
 
   const filteredArticles = selectedCategory === '全部'
     ? articles
