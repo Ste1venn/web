@@ -20,12 +20,12 @@ const About = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 not-prose mb-12">
               {[
-                { icon: '/ai.svg', title: 'AI', desc: '机器学习、深度学习、大语言模型' },
-                { icon: '/product.svg', title: '产品管理', desc: '产品思维、用户体验、数据驱动' },
-                { icon: '/coding.svg', title: '编程开发', desc: 'Web开发、系统设计、最佳实践' },
-                { icon: '/computer.svg', title: '创业创新', desc: '商业模式、创新思维、市场洞察' },
+                { icon: '/ai.svg', title: 'AI', desc: 'LLM、Agent、Prompt' },
+                { icon: '/product.svg', title: '产品', desc: '产品思维、UI/UX、数据驱动' },
+                { icon: '/coding.svg', title: '编程', desc: 'Web开发、架构设计' },
+                { icon: '/computer.svg', title: '创业', desc: '商业模式、市场洞察' },
                 { icon: '/web3.svg', title: 'Web3', desc: '区块链、智能合约、去中心化' },
-                { icon: '/quantum.svg', title: '量子科技', desc: '量子计算、量子物理、前沿研究' },
+                { icon: '/quantum.svg', title: '量子', desc: '量子计算、前沿研究' },
               ].map((item, index) => (
                 <motion.div
                   key={index}
@@ -45,8 +45,7 @@ const About = () => {
 
             <h2 className="text-3xl font-bold mt-12 mb-6">成长理念</h2>
             <p className="leading-relaxed">
-              持续学习是一种生活方式。在这个快速变化的时代，保持好奇心和学习能力至关重要。
-              这个网站记录了在不同领域的探索和思考，希望能够：
+              这个网站记录了我在不同领域的探索和思考，希望能够：
             </p>
             <ul className="space-y-2 my-6">
               <li>系统化整理学习成果</li>
@@ -67,7 +66,7 @@ const About = () => {
 
             <div className="mt-12 p-8 bg-gradient-to-br from-apple-blue/10 to-purple-500/10 rounded-2xl">
               <p className="text-xl font-medium text-apple-gray-800 text-center">
-                "学习不是为了到达终点，而是享受成长的过程"
+                "可胜在敌，不可胜在己"
               </p>
             </div>
           </div>
